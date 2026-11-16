@@ -152,6 +152,7 @@ BEGIN
 		END as cid,
 		CASE 
 		WHEN bdate> GETDATE() THEN NULL
+		WHEN bdate<'1924-01-01' THEN NULL
 		ELSE bdate
 		END AS bdate,
 		CASE
