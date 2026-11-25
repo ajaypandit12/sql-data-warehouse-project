@@ -28,14 +28,15 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 2.**Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 **___________________________________________________________________________________________________________________________**
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/6c250d38-bfe5-4cf5-9c8c-9cadd28d901d" />
 ## BI: Analytics & Reporting (Data Analytics)
 #### Objective
 Develop SQL-based analytics to deliver detailed insights into:
-##### • Customer Behavior
-##### • Product Performance
-##### • Sales Trends
+**• Customer Behavior**
+**• Product Performance**
+**• Sales Trends**
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
-##### • License
+**• 🛡️License**
 This project is licensed under the MIT License. You are free to use, modity, and share this project with proper attribution.
-##### * About Me
+##### *• ⭐About Me
 Hi there! Ajay pandit. I'm a student of BCA of sem 4.
