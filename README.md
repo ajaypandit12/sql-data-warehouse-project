@@ -21,7 +21,7 @@ Specifications
 ###### • Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 **___________________________________________________________________________________________________________________________**
 ## 🛠️ Important Links & Tools
-SQL Server and SSMS: the setup guide in 00_setup has the links and every step.
+
 **Git**: a GitHub account, to save and share your project.
 
 **draw.io**: to draw the architecture and the data model.
