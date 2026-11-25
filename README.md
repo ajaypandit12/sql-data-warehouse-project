@@ -20,6 +20,13 @@ Specifications
 ###### • Scope: Focus on the latest dataset only; historization of data is not required
 ###### • Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 **___________________________________________________________________________________________________________________________**
+## 🛠️ Important Links & Tools
+SQL Server and SSMS: the setup guide in 00_setup has the links and every step.
+**Git**: a GitHub account, to save and share your project.
+**draw.io**: to draw the architecture and the data model.
+**Notion template**: the project plan, ready to copy.
+**Notion project steps**: every phase and task of the project.
+**___________________________________________________________________________________________________________________________**
 ## BI: Analytics & Reporting (Data Analytics)
 #### Objective
 Develop SQL-based analytics to deliver detailed insights into:
