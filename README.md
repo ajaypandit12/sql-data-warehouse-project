@@ -7,7 +7,7 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 2. **ETL Pipeline**: Extracting , Transforming and loading from source system into the warehouse.
 3. **Data Modeling**: Developing Fact and Dimension tables and optimized for Analytical queries.
 4. **Analytics and Reporting**: Creating SQL-based reports and dashbords for acitonable insights, 
-**___________________________________________________________________________________________________________________________**
+**__________________________________________________________________________________________________________________________**
 ## 🚀Project Requirements
 ### Building the Data Warehouse (Data Engineering)
 #### Objective
