@@ -25,22 +25,6 @@ The Gold Layer is the business-level data representation structured to support a
 | birthdate | DATE | Customer date of birth. |
 | create_date | DATE | Date the customer record was created. |
 
-### SQL Structure
-
-```sql
-CREATE TABLE gold.dim_customers (
-    customer_key     INT,
-    customer_id      INT,
-    customer_number  NVARCHAR(50),
-    first_name       NVARCHAR(50),
-    last_name        NVARCHAR(50),
-    country          NVARCHAR(50),
-    marital_status   NVARCHAR(50),
-    gender           NVARCHAR(50),
-    birthdate        DATE,
-    create_date      DATE
-);
-```
 
 ---
 
@@ -64,27 +48,9 @@ CREATE TABLE gold.dim_customers (
 | product_line | NVARCHAR(50) | Product line or series. |
 | start_date | DATE | Product availability start date. |
 
-### SQL Structure
-
-```sql
-CREATE TABLE gold.dim_products (
-    product_key     INT,
-    product_id      INT,
-    product_number  NVARCHAR(50),
-    product_name    NVARCHAR(50),
-    category_id     NVARCHAR(50),
-    category_name   NVARCHAR(50),
-    subcategory     NVARCHAR(50),
-    maintenance     NVARCHAR(50),
-    cost            INT,
-    product_line    NVARCHAR(50),
-    start_date      DATE
-);
-```
-
 ---
 
-# gold.fact_sales
+## gold.fact_sales
 
 **Purpose:** Stores transactional sales data for analytical purposes.
 
@@ -102,20 +68,7 @@ CREATE TABLE gold.dim_products (
 | quantity | INT | Quantity sold. |
 | price | INT | Product unit price. |
 
-### SQL Structure
 
-```sql
-CREATE TABLE gold.fact_sales (
-    order_number  NVARCHAR(50),
-    product_key   INT,
-    customer_key  INT,
-    order_date    DATE,
-    ship_date     DATE,
-    due_date      DATE,
-    sales_amount  INT,
-    quantity      INT,
-    price         INT
-);
 ```
 
 ---
